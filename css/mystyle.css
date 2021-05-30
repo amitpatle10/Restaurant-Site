@@ -1,0 +1,300 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif; 
+}
+.navbar{
+	background-color: yellow;	
+}
+.logo-image {
+	background-image: url('../image/logo.png'); 	
+	background-repeat: no-repeat;
+	background-size:contain;
+	width: 250px;
+	height: 180px;
+	margin: 10px 15px 1px 1px;
+	border-radius: 30px;
+	
+
+}
+#navlist {
+	text-align: center;
+	
+}
+#navlist a:hover {
+	background-color: transparent;
+}
+#contentlist{
+	clear: both;
+
+	
+} 
+
+#phone a {
+	font-size: 1.4em;
+	text-align: right;
+	padding-bottom: 0;
+	color: maroon;
+	font-weight: bold;
+	vertical-align: center;
+
+}
+
+#phone div {
+	color: #5573ce;
+	text-align:right;
+	padding-right: 15px;
+}
+
+.navbar-brand {
+	color:green;
+	text-shadow: 1px 1px 5px white;
+}
+.navbar-brand h1,a:link{
+	color: black;
+}
+.navbar-brand a:hover,.navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.star {
+	width: 30px;
+	height: 30px;
+}
+.navbar-brand span {
+	vertical-align: center;
+	
+}
+
+button.navbar-toggler , .navbar-toggler-icon {
+	border: none;
+	color: maroon;
+
+}
+
+.container .jumbotron {
+	
+	background: url("../image/lpic.jpg") no-repeat;
+	height: 675px;
+	padding: 0px;
+	border: 2px solid black;
+	margin-top: 20px;
+	border-radius: 5px;
+
+}
+
+.img-fluid{
+	height: 100%;
+	width: 100%
+}
+
+#menu-tiles, #special-tiles, #map-tiles {
+		border: 1px solid black;
+		padding: 8px;
+		position: relative;
+		height: 240px;
+		overflow: hidden;
+
+	}
+#menu-tiles:hover, #special-tiles:hover, #map-tiles:hover {
+	box-shadow: 0 1px 5px 1px #cccccc ;
+}
+
+	#menu-tiles span, #special-tiles span, #map-tiles span {
+		position: absolute;
+		bottom: 2px;
+		width: 100%;
+		text-align: center;
+		font-size: 1.6em;
+		right: 0;
+		color: white;
+		
+		background-color: #000;
+		opacity: 0.8;
+
+
+	}
+
+	#hours , #address , #testimonials {
+		background-color: #cccccc;
+		border: 5px maroon;
+		color: black;
+		text-align: left;
+		margin-top: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border: 9px solid #d9d9d9;
+	}
+
+
+	#Copyright {
+		text-align: center;
+		color: grey;
+		margin-top: 10px;
+	}
+
+
+
+
+
+
+@media (min-width: 1200px){
+		#contentlist {
+			padding-left: 30px ;
+			padding-top: 60px;
+		}
+		#phone a{
+			font-size: 1.7em;
+		}
+		
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.logo-image {
+		width: 160px;
+		height: 100px;
+	}
+	
+	.navbar-brand h1 {
+		font-size: 1.8em;
+	}
+	.navbar-brand span {
+		font-size: 0.8em;
+	}
+	.star {
+		width: 25px;
+		height: 25px;
+
+	}
+	#contentlist {
+		padding-left: 60px;
+	}
+	.container .jumbotron {
+	background: url("../image/lpic.jpg") no-repeat;
+	height: 500px;
+	background-size: cover;
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+	.logo-image {
+		width: 100px;
+		height: 90px;
+	}
+	
+	.navbar-brand h1 {
+		font-size: 5vw;
+	}
+	.navbar-brand span {
+		font-size: 0.5em;
+	}
+	.star {
+		width: 20px;
+		height: 20px;
+
+	}
+	#phonesm a {
+	font-size: 1.6em;	
+	padding-bottom: 0;
+	color: maroon;
+	font-weight: bold;
+	vertical-align: center;
+	text-align:center; 
+	background-color: yellow;
+	padding-top: 0px;
+	}
+
+	#phonesm div {
+	color: #5573ce;
+	text-align: center;
+	padding-right: 15px;
+	background-color: yellow;
+	padding-top: 0px;
+	}
+	.container .jumbotron {
+	background: url("../image/lpic.jpg") no-repeat;
+	height: 449px;
+	background-size: cover;
+	}
+	#menu-tiles, #special-tiles, #map-tiles {
+		
+		height: 220px;
+		
+
+	}
+	#address , #testimonials,#hours {
+		margin-top: 15px;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+	}
+
+
+	
+
+	
+	
+}
+@media (max-width: 767px ) {
+	.logo-image {
+		width:70px;
+		height: 80px;
+	}
+
+	.navbar-brand h1 {
+		font-size: 8vw;
+	}
+	.navbar-brand span {
+		font-size: 0.5em;
+		color: maroon;
+	}
+	.star {
+		width: 13px;
+		height: 13px;
+
+	}
+	.navbar button {
+		
+		border: 1px solid white;
+		
+	}
+
+	#phonesm a {
+	font-size: 1.4em;	
+	padding-bottom: 0;
+	color: maroon;
+	font-weight: bold;
+	vertical-align: center;
+	text-align:center; 
+	background-color: lightgreen;
+	padding-top: 0px;
+	border: 3px solid black;
+	margin: 10px;
+	border-radius: 5px;
+	}
+
+	#phonesm div {
+	color: green;
+	text-align: center;
+	padding-right: 15px;
+	
+	padding-top: 0px;
+	}
+	.container .jumbotron {
+	background: url("../image/lpic.jpg") no-repeat;
+	height: 256px;
+	background-size: cover;
+	}
+	#address , #testimonials,#hours {
+		margin-top: 15px;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+	}
+
+
+}
